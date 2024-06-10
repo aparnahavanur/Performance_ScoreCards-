@@ -1,0 +1,217 @@
+"Dataset Explanation:
+Leads Generated: Number of new leads generated in the quarter.
+Pipeline Value: Total potential revenue from sales opportunities in the pipeline.
+Avg. Response Time: Average time in hours to respond to customer support queries.
+Revenue: Total revenue generated in the quarter.
+Wins: Number of sales closed successfully.
+NPS: Average Net Promoter Score for the quarter.
+CSAT: Average Customer Satisfaction Score for the quarter.
+Conversion Rate: Percentage of leads that converted to customers.
+Avg. Deal Size: Average revenue per closed sale.
+Sales Cycle Length: Average number of days taken to close a sale.
+CAC: Average cost to acquire a new customer.
+Marketing ROI: Return on investment from marketing activities.
+Churn Rate: Percentage of customers lost in the quarter.
+CLTV: Predicted revenue from a customer during their relationship with the company.
+Retention Rate: Percentage of customers retained over the quarter.
+Support Satisfaction: Customer satisfaction with support interactions.
+Product Usage: Average hours of product use per user per month.
+Feature Adoption Rate: Percentage of users adopting new features."
+
+"Lead Indicators
+Leads Generated: Reflects potential future sales opportunities.
+Pipeline Value: Represents the potential revenue from sales opportunities.
+Average Customer Support Response Time: Indicates efficiency in addressing customer inquiries.
+Conversion Rate: Shows how effectively leads are converted to customers.
+Sales Cycle Length: Indicates the efficiency of the sales process.
+Customer Acquisition Cost (CAC): Reflects the cost efficiency in acquiring new customers.
+Marketing ROI: Measures the return on investment from marketing efforts.
+
+Lag Indicators
+Revenue: Represents the income generated from sales.
+Number of Wins: Indicates the number of successful sales closures.
+Net Promoter Score (NPS): Measures customer loyalty and satisfaction.
+Customer Satisfaction (CSAT): Reflects overall customer satisfaction.
+Churn Rate: Indicates the percentage of customers lost.
+Customer Lifetime Value (CLTV): Predicts the total revenue from a customer over their lifetime.
+Customer Retention Rate: Measures the percentage of retained customers.
+Customer Support Satisfaction: Reflects satisfaction with customer support interactions.
+Product Usage Metrics: Indicates how frequently and extensively the product is used.
+Feature Adoption Rate: Shows the rate at which new product features are adopted by users."
+
+"Base Metrics List
+Leads Generated
+Pipeline Value
+Average Customer Support Response Time
+Revenue
+Number of Wins
+Net Promoter Score (NPS)
+Customer Satisfaction (CSAT)
+Conversion Rate
+Average Deal Size
+Sales Cycle Length
+Customer Acquisition Cost (CAC)
+Marketing ROI
+Churn Rate
+Customer Lifetime Value (CLTV)
+Customer Retention Rate
+Customer Support Satisfaction
+Product Usage Metrics
+Feature Adoption Rate"
+
+Conversion Rate
+
+Formula: 
+Wins
+Leads Generated
+×
+100
+Leads Generated
+Wins
+​
+ ×100
+Description: Percentage of leads converted into wins.
+Average Deal Size
+
+Formula: 
+Revenue
+Wins
+Wins
+Revenue
+​
+ 
+Description: The average revenue generated per closed deal.
+Sales Cycle Length
+
+Formula: Requires tracking the start and end dates of each sale, then calculating the average duration.
+Description: The average time it takes to close a deal from the initial lead to the final sale. (Note: In practice, this is calculated based on historical sales data.)
+Customer Acquisition Cost (CAC)
+
+Formula: 
+Total Marketing and Sales Expenses
+Number of New Customers Acquired
+Number of New Customers Acquired
+Total Marketing and Sales Expenses
+​
+ 
+Description: The cost incurred to acquire a new customer.
+Marketing ROI
+
+Formula: 
+Revenue
+−
+Marketing Cost
+Marketing Cost
+×
+100
+Marketing Cost
+Revenue−Marketing Cost
+​
+ ×100
+Description: The return on investment from marketing efforts.
+Churn Rate
+
+Formula: 
+Number of Customers Lost
+Total Customers at Start of Period
+×
+100
+Total Customers at Start of Period
+Number of Customers Lost
+​
+ ×100
+Description: The percentage of customers lost over a specific period.
+Customer Lifetime Value (CLTV)
+
+Formula: 
+Average Revenue per Customer
+×
+Gross Margin
+×
+Customer Lifespan
+Average Revenue per Customer×Gross Margin×Customer Lifespan
+Description: The total revenue expected from a customer over their lifetime.
+Customer Retention Rate
+
+Formula: 
+Number of Customers at End of Period
+−
+Number of New Customers
+Total Customers at Start of Period
+×
+100
+Total Customers at Start of Period
+Number of Customers at End of Period−Number of New Customers
+​
+ ×100
+Description: The percentage of customers retained over a period.
+Support Satisfaction
+
+Formula: 
+Support Satisfaction Surveys Positive Responses
+Total Support Surveys Responses
+×
+100
+Total Support Surveys Responses
+Support Satisfaction Surveys Positive Responses
+​
+ ×100
+Description: The percentage of positive responses in support satisfaction surveys.
+Revenue/Win
+
+Formula: 
+Revenue
+Wins
+Wins
+Revenue
+​
+ 
+Description: The average revenue generated per win.
+
+"Frame of Reference
+Time Frame: Quarterly comparison over the years 2023 and 2024.
+Geographic Regions: North America (NA), Europe (EU), Asia-Pacific (APAC), Latin America (LATAM).
+Performance Benchmarks: Industry standards, historical performance data, and strategic goals set by the organization."
+
+"Stakeholders
+Executive Leadership: CEO, CFO, COO – interested in overall business performance and strategic outcomes.
+Sales Team: VP of Sales, Sales Managers – focused on sales metrics, pipeline, and revenue generation.
+Marketing Team: CMO, Marketing Managers – concerned with lead generation, marketing ROI, and customer acquisition.
+Customer Support Team: Head of Customer Support, Support Managers – focused on response times, support satisfaction, and retention rates.
+Product Team: Chief Product Officer, Product Managers – interested in product usage and feature adoption.
+Finance Team: Financial Analysts, Accountants – tracking revenue, costs, and financial health."
+
+"Order of Information
+Overview/Executive Summary
+Key metrics summary (Revenue, NPS, CSAT, CAC, Churn Rate)
+Quarter-over-quarter comparison
+Sales Performance
+Leads Generated
+Pipeline Value
+Number of Wins
+Conversion Rate
+Average Deal Size
+Sales Cycle Length
+Customer Metrics
+Net Promoter Score (NPS)
+Customer Satisfaction (CSAT)
+Customer Retention Rate
+Churn Rate
+Customer Lifetime Value (CLTV)
+Marketing Performance
+Customer Acquisition Cost (CAC)
+Marketing ROI
+Customer Support Metrics
+Average Customer Support Response Time
+Customer Support Satisfaction
+Product Metrics
+Product Usage
+Feature Adoption Rate
+Regional Breakdown
+Performance by region (NA, EU, APAC, LATAM)"
+
+"Filters
+Time Period: Specific quarters (e.g., 2024-Q1, 2024-Q2)
+Region: North America, Europe, Asia-Pacific, Latin America
+Department: Sales, Marketing, Customer Support, Product
+Metric Type: Lead indicators, Lag indicators"
