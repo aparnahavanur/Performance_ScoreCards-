@@ -1,0 +1,34 @@
+### Explanation of the Insurance Dataset
+
+The insurance dataset contains 5000 rows, each representing an individual insurance policy. Below is a detailed description of each column in the dataset:
+
+1. **Policy_ID**: A unique identifier for each policy.
+2. **Region**: The geographic region where the policyholder resides. Possible values are:
+   - NA (North America)
+   - EU (Europe)
+   - APAC (Asia-Pacific)
+   - LATAM (Latin America)
+3. **Policy_Type**: The type of insurance policy. Possible values are:
+   - Health
+   - Life
+   - Auto
+   - Home
+4. **Customer_Age**: The age of the policyholder.
+5. **Premium_Amount**: The amount paid by the policyholder for the insurance premium.
+6. **Claim_Amount**: The amount claimed by the policyholder.
+7. **Claim_Status**: The status of the claim. Possible values are:
+   - Approved
+   - Pending
+   - Rejected
+8. **Customer_Satisfaction**: A score indicating the policyholder's satisfaction with the insurance service, ranging from 1 to 10.
+9. **Policy_Duration_Years**: The number of years the policy has been in effect.
+10. **Renewed**: A binary indicator (0 or 1) showing whether the policy has been renewed or not.
+
+Important KPIs
+Revenue (Total Premium Amount)
+Claims Payout (Total Claim Amount)
+Claim Ratio
+Customer Lifetime Value (CLV)
+Renewal Rate
+Customer Satisfaction Score
+Claim Approval Rate
